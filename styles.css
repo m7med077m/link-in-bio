@@ -115,3 +115,23 @@ body.dark {
     font-size: 1.5rem;
     color: inherit;
 }
+/* Footer Styling */
+footer {
+    background-color: #333;  /* Dark background color */
+    color: #fff;  /* White text color */
+    text-align: center;  /* Center-align text */
+    padding: 10px;  /* Space around text */
+    position: fixed;  /* Fix to the bottom of the page */
+    bottom: 0;
+    width: 100%;  /* Full width */
+}
+
+footer a {
+    color: #1e90ff;  /* Bright blue color for links */
+    text-decoration: none;  /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
